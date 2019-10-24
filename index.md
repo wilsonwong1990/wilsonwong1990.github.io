@@ -7,5 +7,6 @@ This time I'm going to try to be smarter and keep notes in my blog about my home
 
 ## Ansible things
 * [General Ansible notes](./ansible/notes.md)
+* [Windows specific notes](./ansible/windows_setup.md)
 
 
