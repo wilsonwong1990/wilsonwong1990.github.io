@@ -2,8 +2,10 @@
 layout: default
 ---
 
-# welcome to wilsonwong1990's Pages
+# Welcome to wilsonwong1990's blog
+This time I'm going to try to be smarter and keep notes in my blog about my homelab build out that I'm dubbing 3.0
 
-* [old index](./index-old.md)
+## Ansible things
+* [General Ansible notes](./ansible/notes.md)
 
-Any idea what's up? I don't have a fricken clue.
+
