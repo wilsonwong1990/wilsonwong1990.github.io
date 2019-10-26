@@ -11,7 +11,7 @@
 * [x] Test the playbook against the host
 * [ ] Set up some sort of script for new Windows hosts
 
-### October 25, 2019 Update
+### 10/25/19 Update
 
 The vault creation wasn't too bad. It ended up looking like this:
 
