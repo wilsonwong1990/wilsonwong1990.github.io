@@ -10,7 +10,7 @@ I'm finally taking the time to build up an ansible server. I had a few ideas for
 * [x] Start using ansible vault to store my secrets.
 
 ## TODO List:
-* [ ] Setup [Jenkins](./jenkins/notes.md) to  run playbooks
+* [ ] Setup [Jenkins](/jenkins/notes.md) to  run playbooks
 * [ ] Setup a second Ansible server (maybe AWX?) to update this ansible server.
 
 ## Update 10/23/19
@@ -23,4 +23,4 @@ Everything is committed to my private ansible-playbook repo.
 
 ## Update 10/25/19
 
-Took a while but the [Windows based](./ansible/windows_setup.md) playbook is ready to roll out. I was going to do an Ubuntu/Debian based one but I have zero Debian hosts at the moment so I'll edit the Yum playbook when the time comes to use apt.
+Took a while but the [Windows based](./windows_setup.md) playbook is ready to roll out. I was going to do an Ubuntu/Debian based one but I have zero Debian hosts at the moment so I'll edit the Yum playbook when the time comes to use apt.

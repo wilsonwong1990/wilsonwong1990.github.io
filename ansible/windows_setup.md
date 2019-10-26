@@ -52,7 +52,7 @@ With all that out of the way, it was time to put together the playbook. It ended
       token: "{{ slacktoken }}"
       color: good
       parse: full
-      msg: "Host: {{ inventory_hostname }}\nUpdate Results: ```{{ winoutput }}```"
+      msg: "Host: {{ inventory_hostname }}\nUpdate Results: \```{{ winoutput }}\```"
     delegate_to: 127.0.0.1
 ```
 A couple of things took trial and error:
