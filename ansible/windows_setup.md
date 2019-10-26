@@ -55,6 +55,7 @@ With all that out of the way, it was time to put together the playbook. It ended
       msg: "Host: {{ inventory_hostname }}\nUpdate Results: ```{{ winoutput }}```"
     delegate_to: 127.0.0.1
 ```
+_NOTE:_ The theme is doing some weird formatting and the `msg:` line isn't coming through completely. Take a look at the [md file](https://github.com/wilsonwong1990/wilsonwong1990.github.io/blob/master/ansible/windows_setup.md) directly instead.
 A couple of things took trial and error:
 
 * Finding the best way to get an output from the `win_updates` task took me a little while. It helps to use a *debug task* to see what gets outputted to the **winoutput** variable. For example, I put this after the _Perform win updates_ task:
