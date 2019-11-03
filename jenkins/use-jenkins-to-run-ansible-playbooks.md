@@ -1,5 +1,5 @@
 # Running Ansible playbooks via Jenkins jobs
-  Prerequisites:
+  * Prerequisites:
     * Install the following packages:
       * ansible
       * python36-virtualenv
