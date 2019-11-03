@@ -9,4 +9,6 @@ This time I'm going to try to be smarter and keep notes in my blog about my home
 * [General Ansible notes](./ansible/notes.md)
 * [Windows specific notes](./ansible/windows_setup.md)
 
-
+## Jenkins things
+* [Firewall/networking](./jenkins/firewall.md)
+* [Setting up Ansible playbooks](./jenkins/use-jenkins-to-run-ansible-playbooks.md)
